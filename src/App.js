@@ -24,13 +24,13 @@ class App extends React.Component {
             <div>
             <li>
               <ul>
-                <h2>Brand Name: {s.brand_name}</h2>
-                <h2>Manufacturer: {s.manufacturer}</h2>
-                <h2>Shoe Type: {s.shoe_type}</h2>
-                <h2>Shoe Color: {s.color}</h2>
-                <h2>Material: {s.material}</h2>
-                <h2>Shoe Size: {s.size}</h2>
-                <h2>Fasten Type: {s.fasten_type}</h2>
+                <h1>Brand Name: </h1><ul><h3>{s.brand_name}</h3></ul>
+                <h1>Manufacturer: </h1><ul><h3>{s.manufacturer}</h3></ul>
+                <h1>Shoe Type: </h1><ul><h3>{s.shoe_type}</h3></ul>
+                <h1>Shoe Color: </h1><ul><h3>{s.color}</h3></ul>
+                <h1>Material:</h1> <ul><h3>{s.material}</h3></ul>
+                <h1>Shoe Size: </h1><ul><h3>{s.size}</h3></ul>
+                <h1>Fasten Type:</h1> <ul><h3>{s.fasten_type}</h3></ul>
               </ul>
             </li>
             </div>
